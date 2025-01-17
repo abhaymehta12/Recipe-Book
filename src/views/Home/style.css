@@ -1,0 +1,44 @@
+.container {
+    margin-top: 10px;
+    padding: 0 2%;
+}
+.tableWrap {
+    max-height: 528px;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+.table {
+    width: 100%;
+}
+.table thead tr {
+    position: sticky;
+    top: 0;
+}
+.table th {
+    font-size: 20px;
+    background-color: cyan;
+}
+.table tbody td {
+    text-align: center;
+    border: 1px solid gainsboro;
+}
+.imageWrap {
+    padding: 5px 2px;;
+}
+.image {
+    width: 100px;
+}
+.actionWrap {
+    display: flex;
+    justify-content: space-around;
+}
+.actionWrap .fas {
+    font-size: 20px;
+}
+.details {
+    font-size: 18px;
+    line-height: 25px;
+    word-wrap: break-word;
+    max-width: 90%;
+    justify-self: center;
+}

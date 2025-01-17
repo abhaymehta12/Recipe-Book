@@ -1,0 +1,50 @@
+{
+    "recipes": [
+        {
+            "dish": "Spaghetti Carbonara",
+            "cook": "Cook1",
+            "ingredients": [
+                "200g Spaghetti",
+                "100g Pancetta",
+                "2 Eggs",
+                "50g Parmesan Cheese",
+                "2 Garlic Cloves",
+                "Salt & Pepper",
+                "Olive Oil"
+            ],
+            "preparationsteps": [
+                "Boil the spaghetti in salted water according to the package instructions.",
+                "In a pan, sauté garlic and pancetta in olive oil until crispy.",
+                "Whisk eggs and grated parmesan together in a bowl.",
+                "Drain pasta and toss it into the pancetta mixture.",
+                "Quickly add the egg mixture to the pasta and stir until creamy.",
+                "Season with salt and pepper, and serve immediately with extra cheese."
+            ],
+            "image": "../assets/spaghetti-carbonara.jpg",
+            "additional": "For an extra creamy texture, add a little bit of pasta water while mixing the eggs and cheese."
+        },
+        {
+            "dish": "Chicken Alfredo",
+            "cook": "Cook2",
+            "ingredients": [
+                "300g Fettuccine",
+                "200g Chicken Breast",
+                "100g Heavy Cream",
+                "50g Parmesan Cheese",
+                "2 Garlic Cloves",
+                "Salt & Pepper",
+                "Olive Oil"
+            ],
+            "preparationsteps": [
+                "Cook the fettuccine in salted water until al dente.",
+                "Season chicken breasts with salt and pepper, then pan-fry in olive oil until golden.",
+                "In a separate pan, sauté garlic and add heavy cream.",
+                "Add parmesan cheese to the cream mixture and stir until smooth.",
+                "Slice the cooked chicken and mix it with the fettuccine and cream sauce.",
+                "Serve hot with extra parmesan cheese on top."
+            ],
+            "image": "../assets/chicken-alfredo.jpg",
+            "additional": "Garnish with fresh parsley for a burst of color and freshness."
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+footer {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #daf5ff;
+    color: #971cf3;
+  }
