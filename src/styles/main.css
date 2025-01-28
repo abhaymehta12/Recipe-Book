@@ -1,0 +1,24 @@
+.button {
+  padding: .6rem 2rem;
+  line-height: 1.5;
+  border-radius: .4rem;
+  color: #fff;
+  background-color: #1b8bec;
+  border-color: #6c757d;
+  text-decoration: none;
+  border: 1px solid rgb(24, 24, 80);
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.right {
+  text-align: right;
+}
+
+
+.d-none {
+  display: none !important;
+}

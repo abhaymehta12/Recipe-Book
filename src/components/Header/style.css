@@ -1,11 +1,45 @@
 header {
-    font-family: cursive;
-    min-height: 8vh;
-    font-size: 30px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #971cf3;
-    background-color: #daf5ff;
+  font-family: cursive;
+  min-height: 8vh;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #971cf3;
+  background-color: #daf5ff;
+}
+
+.logOut {
+  padding: 2px 5px 4px 5px;
+  border: 2px solid #a19797;
+  border-radius: 5px;
+  position: absolute;
+  right: 18px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.logOut:hover,
+.addRecipe:hover {
+  background-color: #971cf3;
+  color: white;
+}
+
+.addRecipe {
+  padding: 2px 5px 4px 5px;
+  border: 2px solid #a19797;
+  border-radius: 5px;
+  position: absolute;
+  left: 18px;
+  top: 8px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .addRecipe {
+    left: 12px;
   }
+
+  .logOut {
+    right: 12px;
+  }
+}

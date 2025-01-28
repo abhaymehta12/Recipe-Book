@@ -1,44 +1,77 @@
-.container {
-    margin-top: 10px;
-    padding: 0 2%;
-}
-.tableWrap {
-    max-height: 528px;
+.main-page {
+    max-height: 564px;
+    max-width: 1244px;
+    margin: 5px auto auto;
     overflow: auto;
     scrollbar-width: thin;
 }
+
 .table {
     width: 100%;
 }
-.table thead tr {
-    position: sticky;
-    top: 0;
-}
-.table th {
+
+.table thead th {
     font-size: 20px;
     background-color: cyan;
+    padding: 0;
+    text-align: center;
 }
+
 .table tbody td {
     text-align: center;
     border: 1px solid gainsboro;
+    padding: 3px;
 }
+
 .imageWrap {
-    padding: 5px 2px;;
+    padding: 5px 2px;
 }
+
 .image {
-    width: 100px;
+    width: 65px;
 }
+
 .actionWrap {
     display: flex;
     justify-content: space-around;
+    margin-top: 12px;
 }
+
 .actionWrap .fas {
     font-size: 20px;
 }
+
+.fa.fa-utensils {
+    position: unset;
+    float: unset;
+    font-size: 40px;
+    height: unset;
+    width: unset;
+}
+
 .details {
     font-size: 18px;
     line-height: 25px;
     word-wrap: break-word;
     max-width: 90%;
     justify-self: center;
+}
+
+.page-item {
+    cursor: pointer;
+}
+
+.searchWrap {
+    max-width: 250px;
+}
+
+@media only screen and (max-width: 700px) {
+    .actionWrap {
+        flex-direction: column;
+        margin-top: 2px;
+    }
+
+    .fa-trash {
+        margin-top: 5px;
+    }
 }

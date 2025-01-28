@@ -1,0 +1,51 @@
+.row {
+    margin: 0px !important;
+}
+
+.uploadImage {
+    display: flex;
+    white-space: nowrap;
+}
+
+.uplBox {
+    padding: 7px 9px;
+    border-radius: 15px;
+    background: #971cf3;
+    color: white;
+    cursor: pointer;
+}
+
+.recipeOwner {
+    padding: 4px 0;
+    font-weight: 600;
+    font-size: 20px;
+    text-wrap: auto;
+    font-style: italic;
+}
+
+textarea.form-control.h370 {
+    height: 370px;
+}
+
+.additionalWrap {
+    padding: 0 6px;
+    margin-top: 9px;
+}
+
+.additionalWrap textarea.form-control {
+    height: 78px;
+}
+
+.bottomBtnWrap {
+    padding: 0 6px;
+}
+
+.fa-times {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#recipePage .col-6 {
+    padding-left: 7px;
+    padding-right: 7px;
+}

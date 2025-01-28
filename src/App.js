@@ -1,16 +1,27 @@
 import React from 'react';
-import { Header, Footer } from './components';
+import { Header } from './components';
 import Navigation from './navigation';
+import { connect } from 'react-redux';
+import { AuthProvider } from './context/auth';
+import './styles';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
-        <Navigation />
-        <Footer />
+        <AuthProvider>
+          <Header />
+          <Navigation />
+        </AuthProvider>
       </div>
     )
   }
 }
-export default App;
+
+const mapStateToProps = (state) => {
+  return {
+    profile: state.user.profile
+  }
+}
+
+export default connect(mapStateToProps)(App);
